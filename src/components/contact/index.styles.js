@@ -13,7 +13,7 @@ h2{
 
 img{
     width: 100px;
-    
+    height: auto;
 }
 a{
     display: flex;
