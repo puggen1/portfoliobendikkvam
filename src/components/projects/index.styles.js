@@ -3,13 +3,14 @@ const OuterProject = styled.div`
     position: relative;
     width: 100%;
     min-height: 90vh;
+    
     .blurLayer{
         background-image: url(/background.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         filter: blur(5px);
-        height: 100%;
+        min-height: 90vh;
         position: absolute;
         top: 0;
         left: 0;
@@ -24,7 +25,7 @@ const OuterProject = styled.div`
         flex-direction: row;
         flex-wrap: wrap;
         padding: 2rem;
-        height: 100%;
+        min-height: 90vh;
         justify-content: center;
         align-items: center;
         gap:4rem;
