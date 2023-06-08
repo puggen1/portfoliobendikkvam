@@ -1,12 +1,12 @@
 import styled from "styled-components";
 const OuterHeader = styled.div`
-width: 100vw;
+width: 100%;
 height: 10vh;
 display: flex;
 justify-content: center;
 align-items: center;
 background-color: rgba(255,255,255,0.05);
-.Name{
+.name{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: white;

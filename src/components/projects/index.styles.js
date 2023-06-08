@@ -1,10 +1,13 @@
 import styled from "styled-components";
 const OuterProject = styled.div`
     position: relative;
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    min-height: 90vh;
     .blurLayer{
         background-image: url(/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         filter: blur(5px);
         height: 100%;
         position: absolute;
@@ -19,6 +22,8 @@ const OuterProject = styled.div`
     .projects{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2rem;
         height: 100%;
         justify-content: center;
         align-items: center;

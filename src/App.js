@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import Projects from "./components/projects";
+import Contact from "./components/contact";
 import "./styles/styles.css"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Projects/>
+      <Contact  />
     </div>
   );
 }
